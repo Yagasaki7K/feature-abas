@@ -1,0 +1,64 @@
+div.tabbed {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin-left: 250px;
+}
+
+div.tabs a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: medium;
+	color: #007BFF;
+    margin-right: 4px;
+    padding: 0px 2px;
+    font-family: inherit;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+div.tab {
+    display: none;
+    height: 600px;
+    width: 1000px;
+    -moz-border-radius: 0px 0px 5px 5px;
+}
+
+div.tab h1 {
+    color: #007BFF;
+}
+
+div.tab:target {
+    display: block;
+}
+
+:target div.tab {
+    display: block;
+}
+:target div.tab + div.tab{
+    display: none;
+}
+
+.nav-undertabs button {
+    align-items: left;
+}
+
+.nav-undertabs #right {
+    position: absolute;
+    right: 0;
+    margin-top: -23px;
+}
+
+h4 {
+    color: gray;
+    font-weight: 300;
+    margin-top: -20px;
+}
+
+button {
+    border: none;
+    color: #fff;
+    background: #007BFF;
+    font-size: 14px;
+    padding: 2px;
+    outline: none;
+}

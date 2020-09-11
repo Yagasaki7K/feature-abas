@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+<title>CSS-only tabs, a :target demo</title>
+<link rel="stylesheet" href="src/style.css">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="src/font-awesome.css">
+</head>
+
+<body>
+
+    <div class="tabbed">
+
+        <div id="visaogeral" class="tab">
+          <h1>Visão Geral</h1>
+          <h4>Veja detalhes das transações e administre todas as suas vendas detalhadamente.</h4>
+        
+          <div class="tabs">
+            <a href="#visaogeral">Visão Geral</a>
+            <a href="#assinaturas">Assinaturas</a>
+            <a href="#recibos">Recibos</a>
+            <a href="#reembolsos">Reembolsos</a>
+          </div>
+          <hr>
+        
+          <div class="nav-undertabs">|
+            <button onclick="document.location.reload(true)">Refresh</button>
+            <div id="right">
+            <button>Ações em Lote</button>
+            <select name="register" id="register">
+              <option value="10reg">10 Registros</option>
+              <option value="5reg">5 Registros</option>
+              <option value="2reg">2 Registros</option>
+              <option value="1reg">1 Registro</option>
+            </select>
+            <input type="date" data-date-format="DD MM YYYY">
+            <input type="file">
+            
+            <button disabled>XLS</button>
+            <button disabled>CSV</button>
+            <button>Filtros</button>
+            </div>
+            </div>  
+        
+            <p>Conheça todas os status que uma transação pode assumir.</p>
+            <hr>
+            <p>Total de <b>0</b> registros entre <b>28/07/2020</b> e <b>27/07/2020</b></p>
+        </div>
+        
+        <!--        //           -->
+        
+        <div id="assinaturas" class="tab">
+          <h1>Assinaturas</h1>
+          <h4>Veja detalhes das suas vendas de produtos de assinaturas.</h4>
+        
+          <div class="tabs">
+            <a href="#visaogeral">Visão Geral</a>
+            <a href="#assinaturas">Assinaturas</a>
+            <a href="#recibos">Recibos</a>
+            <a href="#reembolsos">Reembolsos</a>
+          </div>
+          <hr>
+        
+          <div class="nav-undertabs">
+            <button onclick="document.location.reload(true)">Refresh</button>
+            <div id="right">
+            <button>Ações em Lote</button>
+            <select name="register" id="register">
+              <option value="10reg">10 Registros</option>
+              <option value="5reg">5 Registros</option>
+              <option value="2reg">2 Registros</option>
+              <option value="1reg">1 Registro</option>
+            </select>
+            <input type="file">
+            
+            <button disabled>XLS</button>
+            <button disabled>CSV</button>
+            <button>Filtros</button>
+            </div>
+            </div>  
+        
+            <p>Conheça os diferentes status de assinatura.</p>
+            <hr>
+            <p>Total de <b>0</b> registros entre <b>28/07/2020</b> e <b>27/07/2020</b></p>
+        </div>
+        
+        <!--        //           -->
+        
+        <div id="recibos" class="tab">
+          <h1>Recibos</h1>
+          <h4>Veja recibo de comissões de Afiliados, tanto os enviados por você, como os recebidos dos Afiliados. Apenas para conferência</h4>
+        
+          <div class="tabs">
+            <a href="#visaogeral">Visão Geral</a>
+            <a href="#assinaturas">Assinaturas</a>
+            <a href="#recibos">Recibos</a>
+            <a href="#reembolsos">Reembolsos</a>
+          </div>
+          <hr>
+        
+          <div class="nav-undertabs">
+            <button onclick="document.location.reload(true)">Refresh</button>
+            <div id="right">
+            <select name="register" id="register">
+              <option value="10reg">10 Registros</option>
+              <option value="5reg">5 Registros</option>
+              <option value="2reg">2 Registros</option>
+              <option value="1reg">1 Registro</option>
+            </select>
+            <button>Filtros</button>
+            </div>
+            </div>  
+        
+            <p>Total de <b>0</b> registros</p>
+        </div>
+        
+        <!--        //           -->
+        
+        <div id="reembolsos" class="tab">
+          <h1>Reembolsos</h1>
+          <h4>Gerencie as solicitações de reembolsos de suas vendas. Confira os status e escolha as ações disponíveis.</h4>
+        
+          <div class="tabs">
+            <a href="#visaogeral">Visão Geral</a>
+            <a href="#assinaturas">Assinaturas</a>
+            <a href="#recibos">Recibos</a>
+            <a href="#reembolsos">Reembolsos</a>
+          </div>
+          <hr>
+        
+          <div class="nav-undertabs">
+            <button>Refresh</button>
+            <div id="right">
+            <select name="register" id="register">
+              <option value="10reg">10 Registros</option>
+              <option value="5reg">5 Registros</option>
+              <option value="2reg">2 Registros</option>
+              <option value="1reg">1 Registro</option>
+            </select>
+            <input type="file">
+            
+            <button disabled>XLS</button>
+            <button disabled>CSV</button>
+            <button>Filtros</button>
+            </div>
+            </div>  
+        
+            <p>Conheça todas os status que uma transação pode assumir.</p>
+            <hr>
+            <p>Total de <b>0</b> registros entre <b>28/07/2020</b> e <b>27/07/2020</b></p>
+        </div>
+</body>
+</html>
